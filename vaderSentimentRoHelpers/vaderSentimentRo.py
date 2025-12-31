@@ -550,7 +550,7 @@ if __name__ == '__main__':
     # 1. ÎNCARCĂ SPACY (Lematizatorul)
     print("⏳ Se încarcă modelul spaCy pentru limba română...")
     try:
-        nlp = spacy.load("ro_core_news_sm")
+        nlp = spacy.load("ro_core_news_lg")
     except OSError:
         print("EROARE: Trebuie să rulezi: python -m spacy download ro_core_news_sm")
         exit()
